@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:ital,wght@0,200;0,400;0,500;1,500&family=Mukta:wght@300&family=Open+Sans&family=Rajdhani&family=Zen+Maru+Gothic:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('Opentype');
+    font-weight: normal;
+}
+
+:root {
+    --Font-padrao: arial, helvetica, verdana, sans-serif;
+    --Font-destaque: 'Bebas Neue', cursive;
+    --Font-Android: 'Android', cursive;
+
+    --color1:#0f5c1a;
+    --color2: #117021;
+    --color3: #095015;
+    --color4: #266130;
+    --color5: #10AD2A;
+}
+
+body {
+    background-color: rgba(111, 190, 137, 0.774);
+    --Font-padrao: var(--font-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--color2), var(--color3));
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: var(--font-destaque);
+    font-size: 40px;
+    padding-top: 1%;
+    margin-bottom: 50px;
+    text-shadow: 1px 2px 1px black;
+}
+
+header > p {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    min-height: 100px;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 1px 1px 1px black;
+    line-height: 20px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: #10AD2A;
+    font-family: var(--Font-Android);
+    font-size: 25px;
+}
+
+main h2 {
+    font-family: var(--Font-Android);
+    color: rgba(19, 163, 62, 0.979);
+    background-image: linear-gradient(to right, rgba(30, 202, 87, 0.404), transparent);
+    font-size: 21px;
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+main p {
+    text-align: justify;
+    margin: 20px 0px;
+    text-indent: px;
+    font-size: 17px;
+    line-height: 2em;
+}
+
+main strong {
+    background-color: rgba(11, 167, 19, 0.822);
+    color: white;
+    padding: 1.5px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 2px;
+}
+
+nav {
+    background-color: var(--color3);
+    padding: 2px;
+    padding-bottom: 7px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    color: white; 
+    text-decoration: none;
+    transition-duration: 0.2s;
+    font-weight: 800;
+    padding: 8px;
+    padding-bottom: 5px;
+}
+
+nav > a:hover {
+    background-color: rgba(19, 163, 62, 0.979);
+    color: white;
+    border-radius: 3px;
+}
+
+nav > a:active {
+    color: gold;
+}
+
+main a {
+    color: rgb(10, 233, 10);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+main a:active {
+    color: gold;
+}
+
+main a::after {
+    content: '\00A0\1F517';
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.bugdroid-pq {
+    display: block;
+    margin: auto;
+    max-width: 360px;
+}
+
+div.video {
+    background-color: var(--color3);
+    margin: 0px -20px 20px -20px;
+    padding: 20px;
+    padding-top: 5%;
+    padding-bottom: 53.4%;
+    position: relative;
+    max-width: 1015px;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+aside {
+    background-color: rgba(28, 172, 88, 0.527);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px black;
+}
+
+aside h3 {
+    background-color: rgba(20, 187, 75, 0.699);
+    color: white;
+    font-weight: normal;
+    padding: 5px;
+    padding-left: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+ aside ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+} 
+
+ul > li {
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(23, 143, 73); 
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.Arthur {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(23, 35, 212);
+    border-radius: 2px;
+    padding: 0px 2px;
+}
