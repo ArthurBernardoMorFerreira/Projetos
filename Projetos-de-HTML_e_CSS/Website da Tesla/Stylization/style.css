@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@500&family=Libre+Franklin:ital,wght@0,200;0,400;0,500;1,500&family=Mukta:wght@300&family=Open+Sans&family=Rajdhani&family=Zen+Maru+Gothic:wght@300;400&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif; 
+    
+}
+
+body {
+
+    background-image: url("../images/Originals/image-car-tesla-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+header {
+
+    display: inline-block;
+    height: 90px;
+    width: 100%;
+    background-image: linear-gradient(140deg, #0e96d4, #1b5eda, #184bda);
+    border-bottom: 1px groove rgba(0, 0, 0, 0.493);
+    box-shadow: 0px 0px 1px black;
+
+}
+
+header > .links-header {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header > .links-header > .logo-tesla {
+
+    display: block;
+    position: relative;
+    left: 5px;
+    line-height: 90px;
+
+}
+
+header > .links-header > .logo-tesla > img {
+
+    display: flex;
+    
+}
+
+header > .links-header > .logo-tesla > a {
+
+    display: inline-flex;
+
+}
+
+header > .links-header > .links-networks {
+
+    display: inline-block;
+    position: relative;
+    line-height: 90px;
+
+}
+
+header > .links-header > .links-networks > a {
+
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+main > #main-menu {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main > #main-menu > a {
+
+    display: inline-flex;
+    position: relative;
+    top: 7px;
+    color: black;
+    font-size: 20px;
+    padding: 1px 12px;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px #3d3c3c;
+
+}
+
+main > #main-menu > a:hover {
+
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(140deg, #686868, #8b8b8b);
+    color: white;
+    border-radius: 4px;
+    outline: 1px groove #808080b4;
+
+}
