@@ -1,4 +1,4 @@
 # HTML-e-CCS
 
-Em breve com JavaScript (PURO)
+Em breve com interações com usuário usando JavaScript (PURO)
  
