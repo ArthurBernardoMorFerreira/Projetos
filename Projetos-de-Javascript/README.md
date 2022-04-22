@@ -1,2 +1,1 @@
-# HTML-e-CCS
- 
+# Projetos Pessoais de JavaScript (em breve...)
